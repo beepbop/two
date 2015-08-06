@@ -93,7 +93,7 @@ $(document).ready(function (){
 
     var config = {
         networks: {
-            google_plus: {enabled: false},
+            googlePlus: {enabled: false},
             twitter: {enabled: true},
             facebook: {enabled: false},
             pinterest: {enabled: false},
