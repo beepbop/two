@@ -91,5 +91,15 @@ $(document).ready(function (){
         }
 	});
 
+    var config = {
+        networks: {
+            twitter: {
+                enabled: true
+            }
+        }
+    };
+    var share = new ShareButton(config);
+
+
 });
 
