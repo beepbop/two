@@ -93,10 +93,15 @@ $(document).ready(function (){
 
     var config = {
         networks: {
-            twitter: {
-                enabled: true
-            }
-        }
+            google_plus: {enabled: false},
+            twitter: {enabled: true},
+            facebook: {enabled: false},
+            pinterest: {enabled: false},
+            reddit: {enabled: false},
+            linkedin: {enabled: false},
+            whatsapp: {enabled: false},
+            email: {enabled: true}
+          }
     };
     var share = new ShareButton(config);
 
