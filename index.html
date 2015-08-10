@@ -5,6 +5,7 @@
   {% include head.md %}
   <body>
     {% include fork-me.md %}
+
     <section class="page-header">
       <h1 class="project-name">{{site.github.project_title}}</h1>
       <h2 class="project-tagline">{{site.github.project_tagline}}</h2>
@@ -14,6 +15,7 @@
       <a href="{{site.github.tar_url}}" class="btn">Download .tar.gz</a>
     </section>
     <section class="main-content">
+
       {{ site.data.readme.content | markdownify }}
 
       {% include footer.md %}
@@ -21,6 +23,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="assets/javascript/ShareButton.min.js"></script>
     <script src="assets/javascript/site.js"></script>
+    {% include analytics.html %}
   </body>
 </html>
 
